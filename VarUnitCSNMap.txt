@@ -1,0 +1,60 @@
+{
+    "var_input": [
+        {
+            "soil_water__initial_hydraulic_conductivity": "K"
+        },
+        {
+            "atmosphere_water__rainfall_volume_flux": "i"
+        },
+        {
+            "model__time_step": "dt"
+        },
+        {
+            "soil_water_wetting-front__suction_head": "psi"
+        },
+        {
+            "soil_water__initial_volume_fraction": "theta_i"
+        },
+        {
+            "soil_water__saturated_volume_fraction": "theta_s"
+        }
+    ]
+},
+{
+    "var_output": [
+        {
+            "soil_surface_water__infiltration_volume_flux": "f"
+        },
+        {
+            "soil_surface_water__time_integral_of_infiltration_volume_flux": "F"
+        }
+    ]
+},
+{
+    "var_unit": [
+        {
+            "soil_water__initial_hydraulic_conductivity": "cm/h"
+        },
+        {
+            "atmosphere_water__rainfall_volume_flux": "cm/h"
+        },
+        {
+            "model__time_step": "h"
+        },
+        {
+            "soil_water_wetting-front__suction_head": "cm"
+        },
+        {
+            "soil_water__initial_volume_fraction": "1"
+        },
+        {
+            "soil_water__saturated_volume_fraction": "1"
+        },
+        {
+            "soil_surface_water__infiltration_volume_flux": "cm/h"
+        },
+        {
+            "soil_surface_water__time_integral_of_infiltration_volume_flux": "cm"
+        }
+    ]
+}
